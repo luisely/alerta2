@@ -2,7 +2,7 @@
 
 **Ferramenta para notificaão**
 
-Ferramenta para Notificação de paradas do Sistema
+Ferramenta para Notificação de paradas do Sistema.
 
 ## License
 
