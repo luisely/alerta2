@@ -6,19 +6,6 @@ let tray = null;
 app.on('window-all-closed', e => e.preventDefault())
 
 
-
-/*
-var recursiva = function () {
-    request('http://192.168.1.56/arquivos/avisos/electron.txt', function (error, response, body) {
-      //console.error('error:', error); // Print the error if one occurred
-      //console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-      global.status = body // Print the HTML for the Google homepage.
-      console.log(global.status)
-    })
-    setTimeout(recursiva, 10000);
-  }
-  recursiva();
-  */
 app.on('ready', () => {
 
     alertaWindow = new BrowserWindow({
