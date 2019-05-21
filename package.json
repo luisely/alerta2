@@ -4,7 +4,8 @@
   "description": "Programa para notificar os usuarios sobre paradas do Sistema",
   "main": "main.js",
   "scripts": {
-    "test": "electron ."
+    "test": "electron .",
+    "build": "electron-packager . Alerta --arch=ia32 --icon=ok.ico"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,8 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "electron": "^5.0.1"
+    "electron": "^5.0.1",
+    "electron-packager": "^13.1.1",
+    "electron-winstaller": "^3.0.4"
   }
 }
